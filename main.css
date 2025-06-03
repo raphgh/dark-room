@@ -1,0 +1,33 @@
+.about-container{
+  padding: 80px;
+}
+
+.purple-bg {
+  background-color: #c099f5; /* Example purple background */
+}
+
+.purple-text{
+  color:hsla(309.47,52.29%,21.37%,1);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.light-purple-bg {
+  background-color: #c9b2ea; /* Example purple background */
+}
+
+.red-text{
+  color: rgb(109, 22, 22);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* Navbar transparent fix */
+.navbar {
+  background-color: transparent !important;
+}
+
+/* Text white for navbar */
+.navbar .nav-link, .navbar .navbar-brand {
+  color: white !important;
+}
