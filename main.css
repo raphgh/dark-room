@@ -8,6 +8,10 @@
   background-color: #c099f5; 
 }
 
+.purple-bg-dark {
+  background-color: #64488b; 
+}
+
 .purple-text{
   color:hsla(309.47,52.29%,21.37%,1);
   font-weight: 500;
