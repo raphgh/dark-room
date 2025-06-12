@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
 .about-container{
   padding: 80px;
 }
 
 .purple-bg {
-  background-color: #c099f5; /* Example purple background */
+  background-color: #c099f5; 
 }
 
 .purple-text{
@@ -13,7 +15,7 @@
 }
 
 .light-purple-bg {
-  background-color: #c9b2ea; /* Example purple background */
+  background-color: #c9b2ea;
 }
 
 .red-text{
@@ -22,10 +24,13 @@
   font-size: 1.2rem;
 }
 
-.sedgwick-ave-regular {
-  font-family: "Sedgwick Ave", cursive;
+.climate-crisis-font {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
 }
 
 /* Navbar transparent fix */
@@ -36,4 +41,8 @@
 /* Text white for navbar */
 .navbar .nav-link, .navbar .navbar-brand {
   color: white !important;
+}
+
+section {
+    scroll-margin-top: 40px;
 }
