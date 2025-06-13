@@ -9,7 +9,7 @@
 }
 
 .purple-bg-dark {
-  background-color: #64488b; 
+  background-color: #bba3d3; 
 }
 
 .purple-text{
@@ -37,16 +37,26 @@
     "YEAR" 1979;
 }
 
-/* Navbar transparent fix */
 .navbar {
   background-color: transparent !important;
 }
 
-/* Text white for navbar */
 .navbar .nav-link, .navbar .navbar-brand {
   color: white !important;
 }
 
 section {
     scroll-margin-top: 40px;
+}
+
+.main-image{ 
+  margin: 0 auto;
+}
+
+.center-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
