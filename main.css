@@ -37,6 +37,19 @@
     "YEAR" 1979;
 }
 
+.road-rage-regular {
+  font-family: "Road Rage", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
 .navbar {
   background-color: transparent !important;
 }
